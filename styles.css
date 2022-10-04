@@ -1,0 +1,23 @@
+#header {
+    display: flex;
+    flex-direction: row;
+}
+
+#nav-bar {
+    margin: 7px;
+}
+
+#logo {
+    display: flex;
+    flex-direction: row;
+    width: 50%;
+}
+
+#header-img {
+    width: 32px;
+    height: 32px;
+}
+
+#app-title {
+    margin: 3px;
+}
