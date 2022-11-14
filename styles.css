@@ -1,10 +1,20 @@
+title {
+    font-family: 'Lucida Sans';
+}
+
 #header {
     display: flex;
-    flex-direction: row;
+    position: fixed;
+    top: 0;
+    background-color: white;
 }
 
 #nav-bar {
     margin: 7px;
+}
+
+.nav-link {
+    margin: 12px;
 }
 
 #logo {
@@ -20,4 +30,15 @@
 
 #app-title {
     margin: 3px;
+}
+
+#hero {
+    margin-top: 60px;
+}
+
+@media (max-width: 400px) {
+    #video {
+        width: 213px;
+        height: 120px;
+    }
 }
